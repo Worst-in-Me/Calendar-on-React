@@ -1,0 +1,41 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.calendar {
+    border-collapse: collapse;
+}
+
+.cell {
+    box-sizing: border-box;
+    border: solid 3px #cfcfcf;
+
+    border-radius: 10%;
+
+    height: 50px;
+    width: 50px;
+
+    font-size: 20px;
+
+    text-align: center;
+    user-select: none;
+}
+
+.highlight {
+    background-color: rgb(255, 226, 226);
+}
+
+.holiday {
+    background-color: rgb(186, 254, 185);
+}
+
+.weekend {
+    color: red;
+}
